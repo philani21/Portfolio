@@ -150,7 +150,7 @@ ul a .active {
     }
 }
 
-/*
+
 .Skills {
   color: #2a2a2a;
   font-size: 40px;
@@ -361,16 +361,62 @@ h3 {
     margin-bottom: 1rem;
   }
 }
-/*
-#contact {
-  background-color: #63e4f5; 
-  padding: 15px;
-  border-radius: 0.5%;
-  text-align: center;
+.contact{
+  height:30%;
+  background:black;
 }
-*/
-footer {
-  background-color: #f4f4f4;
-  text-align: center;
-  padding: 10px;
+
+.cl{
+  clear:both;
+}
+#contact-title{
+  font-weight:bold;
+  color:grey;
+  border-bottom:solid 1px grey;
+}
+
+.info{
+  
+}
+
+
+.awesome i {
+  font-size:2.5em;
+  color:white;
+  float:center;
+}
+
+.awesome{
+  margin-top:1%;
+ 
+  widtth:100%;
+
+}
+.awesome h4 a :hover{
+  color:#ff6060;
+ 
+}
+
+#final{
+   font-family: 'Raleway', sans-serif;
+  border-top:solid 0.5px;
+}
+
+/*css for map*/
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
